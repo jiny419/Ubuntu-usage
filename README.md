@@ -18,3 +18,10 @@ $ rm
 
 #### 원격 파일 전송
 $ scp ./source destination_user@destination_ipaddress:/home/ncidata/jinyeong/source 
+
+#### 현재 위치 확인
+$ pwd
+
+#### 디렉토리 목록 확인
+$ ls
+$ ls -l

@@ -33,6 +33,9 @@ $ nvcc --version
 $ cat /proc/driver/nvidia/version
 $ nvidia-smi --query-gpu=driver_version --format=csv,noheader (for only version)
 
+#### env 확인
+$ python -m torch.utils.collect_env
+
 #### check compatability with CUDA and NVIDIA
 
 CUDA Toolkit | Linux x86_64 Driver Version
